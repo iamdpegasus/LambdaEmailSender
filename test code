@@ -1,0 +1,21 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2024-06-08T12:00:00.000Z",
+      "eventName": "ObjectCreated:Put",
+      "s3": {
+        "bucket": {
+          "name": "bucket-name",
+          "arn": "arn:aws:s3:::bucket-name"
+        },
+        "object": {
+          "key": "key-name",
+          "size": 1024
+        }
+      }
+    }
+  ]
+}
