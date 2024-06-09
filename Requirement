@@ -1,0 +1,9 @@
+Attach below policies in role that will be associated with the lambda function. 
+
+AmazonS3FullAccess
+AmazonSESFullAccess
+AWSLambdaBasicExecutionRole
+CloudWatchEventsFullAccess
+
+Python 3.12 env for the lambda function
+AWSSDKPandas-Python312 Layer for the lambda function
